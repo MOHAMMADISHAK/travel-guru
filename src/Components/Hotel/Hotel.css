@@ -1,0 +1,14 @@
+.room {
+    border-bottom : 1px solid lightgray; 
+    padding-top: 20px;
+    padding-bottom : 20px;  
+    color : white
+}
+.description{
+    margin-left: 10px;
+    
+}
+.img-size{
+    height: 300;
+    width: 300;
+}

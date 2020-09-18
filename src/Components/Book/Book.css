@@ -1,0 +1,33 @@
+.grid-style{
+    color : white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 342px;
+}
+.form-style{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+.from-group-style{
+   
+}
+.form-control-style{
+    background-color: #F2F2F2;
+}
+.button-style{
+    width: 520px;
+}
+.form-title-1{
+margin-left: -500px;
+}
+.form-title-2{
+    margin-left: -460px;
+    }
+.form-title-3{
+        margin-left: -510px;
+        }
+.form-title-4{
+    margin-left: -530px;
+    }
