@@ -97,14 +97,13 @@ function Login() {
                     }
                 <form onSubmit={handleSubmit} >
                     {newUser && <div>
-                        <input name="firstName" type="text" onBlur={handleBlur} placeholder="First Name" />
-                        <br />
-                        <input name="lastName" type="text" onBlur={handleBlur} placeholder="Last Name" />
+                        
+                        <input name="name" type="text" onBlur={handleBlur} placeholder="Your Name" />
                     </div>
 
                     }
                     <br />
-                    <input type="text" name="email" onBlur={handleBlur} placeholder="Enter your Email" required />
+                    <input type="email" name="email" onBlur={handleBlur} placeholder="Enter your Email" required />
                     <br />
                     <input type="password" name="password" onBlur={handleBlur} placeholder="password" required />
                     <br />
@@ -127,6 +126,7 @@ function Login() {
                     />
                 </form>
                 <p style={{ color: 'red' }}>{user.error}</p>
+                    <p>{}</p>
 
                 {user.success && <p style={{ color: 'green' }}>User {newUser ? 'Created' : 'Logged In'} Successfully</p>}
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Hotel from '../Hotel/Hotel';
+import Maping from '../Maping/Maping';
 import './Catalogue.css'
 
 const Catalogue = () => {
@@ -43,13 +44,14 @@ const Catalogue = () => {
     return (
         <div className="catalogue-container row">
             
-            <div className="col-md-7">
+            <div className="col-md-6">
                  <h1 style= {{color:'white'}}>Stay in {title}</h1>
                 {      
                         rooms.map(room => <Hotel room={room}></Hotel>)                 
                 }
             </div>
-            <div className="col-md-5">              
+            <div className="col-md-6"> 
+            <Maping></Maping>             
             </div>
 
         </div>
